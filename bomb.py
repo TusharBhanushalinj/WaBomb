@@ -18,6 +18,8 @@ T = int(input("[+] Enter Delay in seconds : "))
 Text = input("[+] Enter Message : ")
 Time  = int(input("[+] Enter Amount : "))
 
+time.sleep(15)
+
 i = 0
 
 while (i <= Time-1):
