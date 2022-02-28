@@ -6,7 +6,7 @@ T = int(input("Delay \n"))
 Text = input("Message \n")
 Time  = int(input("Amount \n"))
 
-time.sleep(5)
+time.sleep(15)
 
 i = 0
 
@@ -14,4 +14,4 @@ while (i <= Time-1):
     time.sleep(T)
     pg.typewrite(Text)
     pg.press('enter')
-    i+=1
+    i += 1
